@@ -1,0 +1,60 @@
+Pushing Instructions: (capstone 1 session 1)
+
+Go to Gitlab:
+	-in your zuitt-projects-lastname,create a new project/repo called capstone1-<lastname>
+	-untick the readme option
+	-copy the git url from the clone button of your capstone1-<lastname> repo.
+
+Go to Gitbash:
+	-go to your b169/capstone1-<lastname> folder
+	-initialize capstone1-<lastname> folder as a local repo: git init
+	-connect your local repo to our online repo: git remote add origin <gitURLOfOnlineRepo>
+	-add your updates to be committed: git add .
+	-commit your changes to be pushed: git commit -m "add session 1 features"
+	-push your updates to your online repo: git push origin master
+
+Go to Boodle:
+	-copy the url of the home page for your b169/capstone1-<lastname> repo (URL on browser not the URL from clone button) and link it to boodle:
+
+	WDC028-12 | Capstone 1 Development - Developer Portfolio
+
+
+Pushing Instructions: (capstone 1 session 2)
+
+Go to Gitbash:
+	-go to your b169/capstone1-<lastname> folder
+	-add your updates to be committed: git add .
+	-commit your changes to be pushed: git commit -m "add session 2 features"
+	-push your updates to your online repo: git push origin master
+
+Go to Boodle:
+	-copy the url of the home page for your b169/capstone1-<lastname> repo (URL on browser not the URL from clone button) and link it to boodle:
+
+	WDC028-13 | Capstone 1 - Hosting, Checking and Revisions
+
+
+Github Hosting:
+Create a new github account.
+
+Create a new repo in github.
+  -Name your project appropriately.
+
+Go to your gitbash:
+  -If you're not using the same email for gitlab and github, 
+  perform 
+
+  git config --global user.email "yourEmailForGithub@gmail.com"
+  git config --global user.name "yourNameGithub"
+
+  -Initialize your local repo (capstone1-<lastName>) with git init
+  -Add remote - git remote add originGithub <httpsURLFromGithubRepo>
+  -Add updates - git add .
+  -Create commit - git commit -m "includes commit messsage"
+  -Push your updates to github: git push originGithub master
+
+Go Back to your Github Repo:
+  -Go to the Settings Tab
+  -On the left pane, Select Pages
+  -Select source branch as master, click save
+  -Your hosted link should appear above
+  -Wait for 10 mins. as github prepares your website.
